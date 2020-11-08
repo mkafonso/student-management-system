@@ -15,7 +15,7 @@ class SessionController {
     }
 
     if (!(await user.checkPassword(password))) {
-      return res.status(401).json({ error: 'Password does match' });
+      return res.status(401).json({ error: 'Password does not match' });
     }
 
     // If it reaches this line, means that the email & password are correct
