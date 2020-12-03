@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Jest
+__snapshots__/
+coverage/
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+yarn.lock
+package-lock.json
+
+# Webpack output
+dist
+
+# Editor
+.vscode
+.idea
+.DS_Store
+
+codeship.aes
+build/deployment.env
+build/deployment.env.staging
+
+config/local.js
