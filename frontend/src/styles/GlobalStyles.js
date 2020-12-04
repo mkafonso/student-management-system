@@ -4,7 +4,14 @@ export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
+    outline: none;
     box-sizing: border-box;
+    font-family: 'Assistant', Arial, Helvetica, sans-serif;
+  }
+
+  *::selection {
+    background: #FA617B;
+    color: #f3f5f8;
   }
 
   html {
@@ -12,14 +19,20 @@ export default createGlobalStyle`
     background: var(--background);
   }
 
-  *, button, input {
+  button, input {
     border: 0;
     background: none;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: var(--primary);
     transition: color .2s ease-out;
   }
 
+  a {
+    text-decoration: none;
+  }
+
+  span, p ,a, svg {
+    color: var(----secondary);
+  }
 
   :root {
     --background: #f3f5f8;

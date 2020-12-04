@@ -7,6 +7,22 @@ export const routesConfig = {
     title: "Estudantes",
     path: "/estudantes",
   },
+  partners: {
+    title: "Instituições",
+    path: "/instituicoes",
+  },
+  finances: {
+    title: "Financeiro",
+    path: "/financeiro",
+  },
+  reports: {
+    title: "Relatório",
+    path: "/relatorios",
+  },
+  settings: {
+    title: "Configurações",
+    path: "/configuracoes",
+  },
 };
 
 export const getTitleByPath = (path) => {

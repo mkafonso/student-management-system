@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: grid;
   grid-template-areas: "sidebar header" "sidebar content";
-  grid-template-columns: 278px auto;
+  grid-template-columns: 223px auto;
   grid-template-rows: 80px auto;
   background-color: var(--background);
   min-height: 100%;
