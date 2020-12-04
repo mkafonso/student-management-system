@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.aside`
   grid-area: sidebar;
-  position: relative;
+  position: fixed;
   background: white;
   height: 100vh;
 

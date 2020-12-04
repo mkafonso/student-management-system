@@ -6,11 +6,9 @@ export const Container = styled.div`
   grid-template-columns: 223px auto;
   grid-template-rows: 80px auto;
   background-color: var(--background);
-  min-height: 100%;
 `;
 
 export const Content = styled.section`
   grid-area: content;
-  padding: 24px 32px 32px 12px;
-  min-height: 100%;
+  padding: 24px 32px;
 `;

@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 
 // import pages
 import Dashboard from "../pages/Dashboard/Dashboard";
-import Students from "../pages/Students/Students";
+import StudentList from "../pages/Students/StudentList";
 
 // import components
 import DefaultLayout from "../components/Layouts/DefaultLayout/DefaultLayout";
@@ -29,7 +29,7 @@ const Routes = () => {
         path={routes.students.path}
         component={() => (
           <DefaultLayout>
-            <Students />
+            <StudentList />
           </DefaultLayout>
         )}
       />
